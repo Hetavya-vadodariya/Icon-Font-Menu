@@ -1,2 +1,7 @@
 [build]
-  base = "/frontend"  # or simply omit if using the root
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
