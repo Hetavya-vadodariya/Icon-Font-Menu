@@ -1,0 +1,2 @@
+[build]
+  base = "main"  # or simply omit if using the root
